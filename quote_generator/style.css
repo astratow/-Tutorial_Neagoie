@@ -20,11 +20,6 @@ body {
     font-weight: 400;
     font-style: italic;
 }
-.button-container{
-    margin-top: 15px;
-    display: flex;
-    justify-content: space-between;
-}
 
 .quote-container{
     width: auto;
@@ -33,6 +28,23 @@ body {
     border-radius: 10px;
     border-color: rgba;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.quote-text{
+    font-size: 2.75rem;
+}
+
+.long-quote{
+    font-size: 2rem;
+}
+
+.fa-quote-size{
+    font-size: 4rem
+}
+.button-container{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
 }
 
 /* Media Query: Tablet or Smaller*/
